@@ -1,5 +1,5 @@
 
-from gather_data.coinbase_pro import get_time
+from coinbase.pro_api import get_time
 
 
 def gather_main():

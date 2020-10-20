@@ -20,9 +20,15 @@ def test_query():
     limit
         20
     """
-    query_job = client.query(query)  # Make an API request
+    query_results = client.query(query)  # Make an API request
 
-    print('The query data:')
-    for row in query_job:
+    print('Query results:')
+    for row in query_results:
         # Row values can be accessed by field name or index
         print(f'name={row[0]}, count={row["total_people"]}')
+
+
+def get_tables():
+    """Returns currently available tables in GCP BQ"""
+    tables = []
+    return tables
