@@ -27,3 +27,9 @@ Deactivate the environment
 ### To Do
 - Leverage the CoinbasePro Python library
 `https://github.com/danpaquin/coinbasepro-python`
+
+### Pages
+`npx create-react-app react-js-app`
+`cd react-js-app`
+`yarn start`
+`yarn build`
