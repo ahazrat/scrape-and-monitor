@@ -1,5 +1,8 @@
 # scrape-and-monitor
 
+## Github Pages
+See the live frontend [here](http://ahazrat.github.io/scrape-and-monitor).
+
 ## Objectives
 - Gather
 - Store
