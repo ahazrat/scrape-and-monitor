@@ -51,8 +51,9 @@ def get_historic_rates(product_id: str):
     """
     response = requests.get(rest_api_endpoint_url + '/products/' + product_id + '/candles')
     historic_rates = response.json()
+    # todo load to pandas dataframe
     print('historic_rates:')
-    for candle in historic_rates:
+    for candle in historic_rates[:5]:
         print(candle)
     return historic_rates
 
